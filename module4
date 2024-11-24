@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Crée un répertoire
+mkdir mon_dossier
+
+# Accède au répertoire
+cd mon_dossier
+
+# Crée un fichier texte
+touch mon_fichier.txt
+
+# Ajoute du contenu dans le fichier
+echo "Bonjour, ceci est un fichier créé avec un script bash !" > mon_fichier.txt
+
+# Affiche le contenu du fichier
+cat mon_fichier.txt
+
+# Remonte au répertoire parent
+cd ..
+
+# Fin du script
+echo "Script terminé."
